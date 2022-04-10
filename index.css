@@ -28,12 +28,14 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 15px;
+  align-items: center;
 }
 
 .imagenPrincipal {
   border-radius: 15px 15px 0px 0px;
+  width: 330px;
 }
 
 .text-conteiner{
@@ -47,4 +49,24 @@ body {
     color: hsl(224, 23%, 55%);
     line-height: 25px;
     
+}
+.pago-conteiner{
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  width: 270px;
+  padding: 0px 15px;
+  border-radius: 15px;
+  align-items: center;
+}
+.annual-plan{
+  /* border: solid 1px; */
+  /* height: 50px; */
+  line-height:8px;
+  }
+.botones{
+ border-radius: 5px;
+ width: 100%;
+
+
 }

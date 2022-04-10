@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.max-conteiner {
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card-conteiner {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+
+.imagenPrincipal {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.text-conteiner{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-conteiner > p {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+    
+}
